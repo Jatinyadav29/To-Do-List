@@ -361,3 +361,111 @@
   transform: translate(-50%, 50%);
   opacity: 1;
 }
+
+/* === Dashboard Layout === */
+.dashboard {
+  display: flex;
+  min-height: 70vh;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 220px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.sidebar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #db4c3f;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.menu li {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.menu li:hover {
+  color: #db4c3f;
+}
+
+.add-project-btn {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #db4c3f;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-project-btn:hover {
+  background-color: #c23a31;
+}
+
+/* === Main Task View === */
+.task-view {
+  flex: 1;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.task-view-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #db4c3f;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.task-item {
+  padding: 1rem;
+  background-color: #f6f6f6;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.add-task-btn {
+  padding: 0.7rem 1.2rem;
+  background-color: #db4c3f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-btn:hover {
+  background-color: #c23a31;
+}

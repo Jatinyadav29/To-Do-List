@@ -10,8 +10,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
+
   <body>
+    <!-- header begins here  -->
     <header>
+      <!-- navigation bar starts here  -->
       <nav class="navbar">
         <div class="logo">Todoist</div>
         <ul class="nav-links">
@@ -27,6 +30,9 @@
           <i class="fas fa-bars"></i>
         </div>
       </nav>
+      <!-- navigation bar ends here -->
+
+      <!-- hero section starts here -->
       <div class="hero-section">
         <div class="hero-content">
           <h1 class="hero-heading">Clarity, finally.</h1>
@@ -47,28 +53,34 @@
           alt="Hero Image"
         />
       </div>
+      <!-- hero section ends here -->
     </header>
+    <!-- header section ende here -->
+
+    <!-- features section starts here -->
     <section class="feature-sections">
       <h2 class="features-heading">Work and life, organized</h2>
       <p class="features-subtext">
         See how Todoist can help you get it all done.
       </p>
       <div class="feature-cards">
+        <!-- card 1 of feature section -->
         <div id="card1" class="card">
           <div class="card-details">
             <p class="text-title">Stay organized</p>
             <p class="text-body">Capture and prioritize tasks in seconds.</p>
           </div>
-          <button class="card-button">More info</button>
+          <button class="card-button">Start Now</button>
         </div>
-
+        <!-- card 2 of feature section -->
         <div id="card2" class="card">
           <div class="card-details">
             <p class="text-title">Get more done</p>
             <p class="text-body">Focus your energy on what matters most.</p>
           </div>
-          <button class="card-button">More info</button>
+          <button class="card-button">Start Now</button>
         </div>
+        <!-- card 3 of feature section -->
         <div id="card3" class="card">
           <div class="card-details">
             <p class="text-title">Feel good</p>
@@ -76,9 +88,35 @@
               Enjoy peace of mind with everything under control.
             </p>
           </div>
-          <button class="card-button">More info</button>
+          <button class="card-button">Start Now</button>
         </div>
       </div>
+    </section>
+    <!-- feature section ends here -->
+
+    <!-- Task Dashboard starts here -->
+    <section class="task-Dashboard">
+      <!-- side bar for navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-logo">Todist</div>
+        <div id="sidebar-navigation">
+          <div id="sidebar-inbox">
+            <i class="fas fa-inbox"></i>
+            Inbox
+          </div>
+          <div id="sidebar-today">
+            <i class="fas fa-calendar-day"></i>
+            Today
+          </div>
+          <div id="sidebar-upcoming">
+            <i class="fas fa-calendar-alt"></i>
+            Upcoming
+          </div>
+          <button class="add-project-btn">+ Add Project</button>
+        </div>
+      </aside>
+      <!-- Inbox / task viewer -->
+      <section></section>
     </section>
     <script src="app.js"></script>
   </body>
